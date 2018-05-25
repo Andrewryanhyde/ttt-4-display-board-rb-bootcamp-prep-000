@@ -3,6 +3,9 @@
 
 
 def display_board(board)
+  if board = [] 
+    puts board
+  end
   def display_board(board)
 separator = "|"
 lines = "-----------"
