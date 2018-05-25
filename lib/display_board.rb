@@ -3,6 +3,7 @@
 
 
 def display_board(board)
+  board = [" "," "," "," "," "," "," "," "," "]
   if board = [] 
     puts board
   end
