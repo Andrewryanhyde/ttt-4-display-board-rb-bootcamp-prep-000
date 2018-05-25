@@ -3,10 +3,7 @@
 
 
 def display_board(board)
-  
-  if board.each = "   " 
-    puts board
-  end
+  board = [" "," "," "," "," "," "," "," "," "]
   def display_board(board)
 separator = "|"
 lines = "-----------"
@@ -18,6 +15,9 @@ puts "#{lines}"
 puts " #{board[6]} #{separator} #{board[7]} #{separator} #{board[8]} "
 end
  if board = [] 
+    puts board
+  end
+  if board.each = "   " 
     puts board
   end
 end
