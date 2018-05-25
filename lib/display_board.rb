@@ -17,7 +17,4 @@ end
  if board = [] 
     puts board
   end
-  if board.each = "   " 
-    puts board
-  end
 end
